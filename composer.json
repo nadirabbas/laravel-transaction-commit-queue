@@ -1,5 +1,5 @@
 {
-    "name": "jlorente/laravel-transaction-commit-queue",
+    "name": "nadirabbas/laravel-transaction-commit-queue",
     "version": "1.0.4",
     "description": "A Laravel queue connector to process jobs after successful transactions commits",
     "keywords": [
