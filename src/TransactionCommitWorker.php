@@ -40,11 +40,6 @@ class TransactionCommitWorker
      */
     protected $manager;
 
-    /**
-     * The event dispatcher instance.
-     *
-     * @var \Illuminate\Contracts\Events\Dispatcher
-     */
     protected $events;
 
     /**
@@ -63,7 +58,7 @@ class TransactionCommitWorker
      * @return void
      */
     public function __construct(QueueManager $manager,
-            Dispatcher $events,
+            $events,
             ExceptionHandler $exceptions)
     {
         $this->events = $events;
